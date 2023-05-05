@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.images img {
+    width: 500px;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    position: relative;
+    font-size: 16px;
+}
+
+.content {
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.text-content {
+    text-align: center;
+    padding: 9%; 
+}
+
+.text-title {
+    color: blue;
+    margin-bottom: 20px;
+    font-weight: 980;
+    font-size: 32px;   
+}
+
+
+.text-subtitle p {
+    color: #8a8a8a;
+    margin-bottom: 25px;
+}
+
+.box-content {
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    display: flex;
+    padding: 25px;
+}
+
+.box-content-left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.box-content-left img {
+    width: 40px;
+}
+
+.box-content-left div {
+    margin-left: 20px;
+}
+
+.box-content-left div h5 {
+    color: navy;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.box-content-left div p {
+    color: grey;
+    font-size: 14px;  
+}
+
+.box-content a {
+    color: navy;
+    font-weight: 880;  
+}
+
+.box-content a:hover {
+    color: navy;
+    text-decoration: none;
+}
+
+a.proces-btn {
+    background-color: navy;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px 0;
+    border-radius: 12px;
+    margin: 30px 0;
+}
+
+a.proces-btn:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+a.cancel-btn {
+    color: navy;
+    font-weight: 900;
+    text-decoration: none;   
+}
+
+a.cancel-btn:hover  {
+    color: hsl(224, 23%, 55%);
+}
